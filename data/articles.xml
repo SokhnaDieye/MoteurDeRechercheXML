@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/articles.xsl"?>
+<articles>
+    <article id="1">
+        <title>Introduction au Machine Learning</title>
+        <author>Jean Dupont</author>
+        <date>2024-01-15</date>
+        <category>Technologie</category>
+        <content>Une introduction complète au machine learning et ses applications dans le monde moderne. Cette discipline révolutionnaire transforme notre façon d'analyser les données et de prendre des décisions.</content>
+        <tags>machine learning, IA, technologie, data science</tags>
+        <keywords>apprentissage automatique, intelligence artificielle, algorithmes</keywords>
+    </article>
+    
+    <article id="2">
+        <title>Les Bases de JavaScript Moderne</title>
+        <author>Marie Martin</author>
+        <date>2024-02-10</date>
+        <category>Programmation</category>
+        <content>Apprenez les concepts fondamentaux de JavaScript moderne avec ES6+ et découvrez les meilleures pratiques pour développer des applications web performantes.</content>
+        <tags>javascript, web, programmation, ES6</tags>
+        <keywords>développement web, frontend, programmation</keywords>
+    </article>
+    
+    <article id="3">
+        <title>Design Patterns en Python</title>
+        <author>Pierre Durand</author>
+        <date>2024-03-05</date>
+        <category>Programmation</category>
+        <content>Exploration des design patterns les plus utilisés en Python : Singleton, Factory, Observer et bien d'autres. Maîtrisez l'architecture logicielle moderne.</content>
+        <tags>python, design patterns, architecture, POO</tags>
+        <keywords>modèles de conception, architecture logicielle, Python</keywords>
+    </article>
+    
+    <article id="4">
+        <title>Sécurité Web Moderne</title>
+        <author>Jean Dupont</author>
+        <date>2024-01-20</date>
+        <category>Sécurité</category>
+        <content>Les meilleures pratiques de sécurité pour les applications web : HTTPS, authentification, protection XSS et CSRF. Sécurisez vos applications efficacement.</content>
+        <tags>sécurité, web, HTTPS, authentification</tags>
+        <keywords>cybersécurité, protection web, sécurité informatique</keywords>
+    </article>
+    
+    <article id="5">
+        <title>Introduction à React et Redux</title>
+        <author>Sophie Laurent</author>
+        <date>2024-02-28</date>
+        <category>Framework</category>
+        <content>Démarrez avec React et Redux pour créer des interfaces utilisateur modernes et réactives. Gestion d'état, composants et hooks expliqués simplement.</content>
+        <tags>react, redux, frontend, javascript, hooks</tags>
+        <keywords>interface utilisateur, composants React, gestion d'état</keywords>
+    </article>
+    
+    <article id="6">
+        <title>Bases de Données NoSQL avec MongoDB</title>
+        <author>Marc Leroy</author>
+        <date>2024-03-15</date>
+        <category>Base de données</category>
+        <content>Comprendre les bases de données NoSQL et leur utilisation avec MongoDB. Modélisation de données, requêtes et optimisation des performances.</content>
+        <tags>nosql, mongodb, base de données, performance</tags>
+        <keywords>base de données non-relationnelle, MongoDB, stockage de données</keywords>
+    </article>
+    
+    <article id="7">
+        <title>DevOps et Containers Docker</title>
+        <author>Thomas Bernard</author>
+        <date>2024-04-02</date>
+        <category>DevOps</category>
+        <content>Maîtrisez Docker et les containers pour simplifier le déploiement et la gestion de vos applications. De la création d'images à l'orchestration.</content>
+        <tags>docker, containers, devops, déploiement</tags>
+        <keywords>conteneurisation, DevOps, Docker, microservices</keywords>
+    </article>
+    
+    <article id="8">
+        <title>API REST et GraphQL</title>
+        <author>Marie Martin</author>
+        <date>2024-04-18</date>
+        <category>API</category>
+        <content>Comparaison entre les APIs REST traditionnelles et GraphQL. Avantages, inconvénients et cas d'usage pour chaque approche.</content>
+        <tags>API, REST, GraphQL, web services</tags>
+        <keywords>services web, API REST, GraphQL, intégration</keywords>
+    </article>
+    
+    <article id="9">
+        <title>Cloud Computing avec AWS</title>
+        <author>Antoine Moreau</author>
+        <date>2024-05-10</date>
+        <category>Cloud</category>
+        <content>Introduction aux services Amazon Web Services : EC2, S3, RDS et Lambda. Construisez une architecture cloud scalable et sécurisée.</content>
+        <tags>AWS, cloud, EC2, S3, lambda</tags>
+        <keywords>cloud computing, Amazon Web Services, infrastructure cloud</keywords>
+    </article>
+    
+    <article id="10">
+        <title>Intelligence Artificielle et Ethics</title>
+        <author>Dr. Sarah Johnson</author>
+        <date>2024-05-25</date>
+        <category>IA</category>
+        <content>Les enjeux éthiques de l'intelligence artificielle moderne. Biais algorithmiques, transparence et responsabilité dans le développement d'IA.</content>
+        <tags>IA, éthique, biais, algorithmes, responsabilité</tags>
+        <keywords>éthique IA, intelligence artificielle responsable, biais algorithmiques</keywords>
+    </article>
+    
+    <article id="11">
+        <title>Développement Mobile avec Flutter</title>
+        <author>Lucas Petit</author>
+        <date>2024-06-08</date>
+        <category>Mobile</category>
+        <content>Créez des applications mobiles multiplateformes avec Flutter. Widgets, navigation et intégration native pour iOS et Android.</content>
+        <tags>flutter, mobile, dart, iOS, android</tags>
+        <keywords>développement mobile, applications cross-platform, Flutter</keywords>
+    </article>
+    
+    <article id="12">
+        <title>Blockchain et Cryptomonnaies</title>
+        <author>Pierre Durand</author>
+        <date>2024-06-20</date>
+        <category>Blockchain</category>
+        <content>Comprendre la technologie blockchain au-delà des cryptomonnaies. Smart contracts, DeFi et applications décentralisées.</content>
+        <tags>blockchain, crypto, smart contracts, DeFi</tags>
+        <keywords>technologie blockchain, cryptomonnaies, contrats intelligents</keywords>
+    </article>
+</articles>
