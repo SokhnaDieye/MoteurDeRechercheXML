@@ -164,34 +164,11 @@
             <xsl:call-template name="article-card" />
         </xsl:for-each>
     </xsl:template>
+
     <!-- Template pour recherche par catégorie -->
     <xsl:template match="articles" mode="search-category">
         <xsl:param name="category-name" />
         <xsl:for-each select="article[category=$category-name]">
-            <xsl:call-template name="article-card" />
-        </xsl:for-each>
-    </xsl:template>
-    <!-- Template pour recherche par mot-clé -->
-    <xsl:template match="articles" mode="search-keyword">
-        <xsl:param name="keyword" />
-        <xsl:for-each
-            select="article[contains(translate(title, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate($keyword, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')) or 
-                                     contains(translate(content, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate($keyword, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')) or 
-                                     contains(translate(tags, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate($keyword, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))]">
-            <xsl:call-template name="article-card" />
-        </xsl:for-each>
-    </xsl:template>
-    <!-- Template pour recherche par auteur -->
-    <xsl:template match="articles" mode="search-author">
-        <xsl:param name="author-name" />
-        <xsl:for-each select="article[author=$author-name]">
-            <xsl:call-template name="article-card" />
-        </xsl:for-each>
-    </xsl:template>
-    <!-- Template pour recherche par date -->
-    <xsl:template match="articles" mode="search-date">
-        <xsl:param name="search-date" />
-        <xsl:for-each select="article[date=$search-date]">
             <xsl:call-template name="article-card" />
         </xsl:for-each>
     </xsl:template>
