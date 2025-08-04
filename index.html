@@ -1,75 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moteur de Recherche XML</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css">
-</head>
-<body>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
     <div class="container my-5">
-        <div class="search-container p-4">
-            <!-- Header -->
-            <div class="text-center mb-4">
-                <h1 class="display-4 text-primary mb-2">
-                    <i class="fas fa-search me-3"></i>Moteur de Recherche Articles
-                </h1>
-                <p class="lead text-muted">Recherchez parmi notre collection d'articles</p>
-            </div>
-
-            <!-- Formulaire de recherche horizontal -->
-            <div class="search-form mb-4">
-                <div class="row g-3 align-items-end">
-                    <div class="col-md-4">
-                        <label class="form-label fw-bold">Mot-clé</label>
-                        <input type="text" id="keyword" class="form-control" placeholder="Titre ou contenu...">
-                    </div>
-                    <div class="col-md-3">
-                        <label class="form-label fw-bold">Auteur</label>
-                        <select id="author" class="form-select">
-                            <option value="">Tous les auteurs</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <label class="form-label fw-bold">Date</label>
-                        <input type="date" id="date" class="form-control">
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-search btn-primary w-100" onclick="searchArticles()">
-                            <i class="fas fa-search me-2"></i>Rechercher
-                        </button>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-12">
-                        <button class="btn btn-outline-secondary btn-sm" onclick="resetSearch()">
-                            <i class="fas fa-refresh me-1"></i>Réinitialiser
-                        </button>
-                        <span class="ms-3 text-muted" id="resultCount">0 articles trouvés</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Zone des résultats -->
-            <div id="results-container">
-                <!-- Les articles seront affichés ici -->
-            </div>
-
-            <!-- Pagination -->
-            <nav aria-label="Navigation des pages" class="mt-4">
-                <ul class="pagination justify-content-center" id="pagination">
-                </ul>
-            </nav>
+      <div class="search-container p-4">
+        <!-- Header -->
+        <div class="text-center mb-4">
+          <h1 class="display-4 text-primary mb-2">
+            <i class="fas fa-search me-3"></i>Moteur de Recherche Articles
+          </h1>
+          <p class="lead text-muted">
+            Recherchez parmi notre collection d'articles
+          </p>
         </div>
+
+        <!-- Formulaire de recherche horizontal -->
+        <div class="search-form mb-4">
+          <div class="row g-3 align-items-end">
+            <div class="col-md-4">
+              <label class="form-label fw-bold">Mot-clé</label>
+              <input
+                type="text"
+                id="keyword"
+                class="form-control"
+                placeholder="Titre ou contenu..."
+              />
+            </div>
+            <div class="col-md-3">
+              <label class="form-label fw-bold">Auteur</label>
+              <select id="author" class="form-select">
+                <option value="">Tous les auteurs</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label fw-bold">Date</label>
+              <input type="date" id="date" class="form-control" />
+            </div>
+            <div class="col-md-2">
+              <button
+                class="btn btn-search btn-primary w-100"
+                onclick="searchArticles()"
+              >
+                <i class="fas fa-search me-2"></i>Rechercher
+              </button>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-12">
+              <button
+                class="btn btn-outline-secondary btn-sm"
+                onclick="resetSearch()"
+              >
+                <i class="fas fa-refresh me-1"></i>Réinitialiser
+              </button>
+              <span class="ms-3 text-muted" id="resultCount"
+                >0 articles trouvés</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Zone des résultats -->
+        <div id="results-container">
+          <!-- Les articles seront affichés ici -->
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Navigation des pages" class="mt-4">
+          <ul class="pagination justify-content-center" id="pagination"></ul>
+        </nav>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-        console.log("Nombre d'articles chargés:", allArticles.length);
-        console.log("Exemple de premier article:", allArticles[0]);
-</script>
-</body>
+      console.log("Nombre d'articles chargés:", allArticles.length);
+      console.log("Exemple de premier article:", allArticles[0]);
+    </script>
+  </body>
 </html>
